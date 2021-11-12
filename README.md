@@ -9,12 +9,11 @@ This is just a small program I wrote to make it easier for me to convert my .fla
 The code is very simple, and has a ton of room for improvement. Feel free to mess with the code to suit your needs.
 
 ## How To Run
-**All instructions are for Linux specifically, you can adapt it to suit your os**<br>
-<br>
+**All instructions are for Linux specifically, you can adapt it to suit your os. I don't think it would be very different for any different os**<br>
 
 *Please Note: This program is basically using FFmpeg to convert the songs, so you will need it installed and added to path*<br>
 
-- Download the GoLang files and build it, or download the convert-mp3.sh file
-- Move the convert-mp3.sh files to ~/bin to access it from any folder
+- Download the GoLang files and build it
+- Move the compiled files to ~/bin to access it from any folder
 - Navigate to the folder with the music files
 - Run `convert-mp3` to run the program. This will create a sub-directory called "MP3", inside of which the mp3 files for all your songs will be saved
